@@ -9,7 +9,7 @@ The primary goal of this project was to engineer a robust and efficient database
 
 Key Features :
 
-Normalized Database Design: Constructed an entity-relationship diagram (ERD) and translated it into a normalized relational database schema comprising 18 tables. Applied database normalization techniques up to the third normal form (3NF) to eliminate data redundancy and improve storage efficiency.
+Normalized Database Design: Constructed an entity-relationship diagram and translated it into a normalized relational database schema comprising more than 18 tables. Applied database normalization techniques up to the third normal form (3NF) to eliminate data redundancy and improve storage efficiency.
 
 Query Optimization: Optimized complex SQL queries involving joins, correlated subqueries, and nested queries to enhance data processing speed and efficiency within the MySQL database environment.
 
