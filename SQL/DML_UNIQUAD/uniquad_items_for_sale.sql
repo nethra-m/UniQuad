@@ -1,0 +1,37 @@
+-- MySQL dump 10.13  Distrib 8.0.34, for Win64 (x86_64)
+--
+-- Host: 127.0.0.1    Database: uniquad
+-- ------------------------------------------------------
+-- Server version	8.0.31
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Dumping data for table `items_for_sale`
+--
+
+LOCK TABLES `items_for_sale` WRITE;
+/*!40000 ALTER TABLE `items_for_sale` DISABLE KEYS */;
+INSERT INTO `items_for_sale` VALUES (1,'Printer',60.00,20),(2,'Laptop',800.00,1),(3,'Textbook Set',100.50,2),(4,'Gaming Console',250.00,3),(5,'Bicycle',150.00,4),(6,'Camera',300.00,5),(7,'Furniture Set',400.00,6),(8,'Smartphone',200.00,7),(9,'Headphones',50.00,8),(10,'Kitchen Appliances',120.00,9),(11,'Artwork',80.00,10),(12,'Fitness Equipment',90.00,11),(13,'Designer Clothing',180.00,12),(14,'Guitar',130.00,13),(15,'Tablet',150.00,14),(16,'Home Decor',70.00,15),(17,'Sports Gear',110.00,16),(18,'Collectibles',250.00,17),(19,'Board Games Set',40.00,18),(20,'Outdoor Gear',120.00,19);
+/*!40000 ALTER TABLE `items_for_sale` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2024-02-18 22:04:06
