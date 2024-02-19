@@ -9,10 +9,11 @@ import mysql.connector
 from sqlalchemy import create_engine
 
 # Replace these values with your own database information
-host = "127.0.0.1"
-user = "root"
-password = "password"
+host = "<your_host_name/ip>"
+user = "<your_user_name>"
+password = "<your_password>"
 database = "uniquad"
+
 
 # Establish a connection for Dash app
 connection_dash = mysql.connector.connect(

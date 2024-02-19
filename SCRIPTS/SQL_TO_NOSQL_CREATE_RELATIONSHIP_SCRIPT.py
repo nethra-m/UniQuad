@@ -35,15 +35,15 @@ def get_foreign_keys(mysql_connection):
 
 # Main function
 def main():
-    mysql_host = '127.0.0.1'
-    mysql_user = 'root'
-    mysql_password = 'password'
+    mysql_host = '<your_host_name/ip>'
+    mysql_user = '<your_user_name>'
+    mysql_password = '<your_password>'
     mysql_db = 'uniquad'
 
     # Neo4j Connection Details
     neo4j_uri = 'bolt://localhost:7687'
-    neo4j_user = 'neo4j'
-    neo4j_password = 'password'
+    neo4j_user = '<your_user_name>'
+    neo4j_password = '<your_password>'
 
     neo4j_driver = connect_to_neo4j(neo4j_uri, neo4j_user, neo4j_password)
     mysql_connection = connect_to_mysql(mysql_host, mysql_user, mysql_password, mysql_db)
